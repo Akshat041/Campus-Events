@@ -254,7 +254,7 @@ tr:hover {
   background-color: #8b5cf6;
 }
 
-.other {
+.technical {
   background-color: #6b7280;
 }
 
@@ -328,7 +328,7 @@ tr:hover {
   border-left: 4px solid #8b5cf6;
 }
 
-.event-list-item.other {
+.event-list-item.technical {
   border-left: 4px solid #6b7280;
 }
 

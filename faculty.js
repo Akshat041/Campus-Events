@@ -1,32 +1,30 @@
-// import { events } from "./events.js";
-
-// faculty.js - Faculty interface functionality
-
 // At the beginning of your JS files (both faculty.js and student.js)
-// Initialize events from localStorage or use default if none exists
+// Initializing events from localStorage or use default if none exists
 let events = JSON.parse(localStorage.getItem("events")) || [
   {
     id: 1,
-    title: "Midterm Exam Review",
-    date: "2025-04-01",
-    startTime: "14:00",
-    endTime: "16:00",
-    category: "academic",
-    location: "Science Building, Room 305",
-    description: "Review session for Biology 101 midterm exam",
-    createdBy: "prof_smith",
+    title: "Engenious Technical Event",
+    date: "2025-03-25",
+    startTime: "09:00",
+    endTime: "12:00",
+    category: "technical",
+    location: "KIT Building, Room 303",
+    description:
+      "Teams compete in a high-stakes challenge, demonstrating their problem-solving and technical skills. Expect intense competition and groundbreaking solutions.",
+    createdBy: "Faculty_member_1",
     lastModified: "2025-03-20T10:30:00",
   },
   {
     id: 2,
-    title: "Spring Concert",
-    date: "2025-04-15",
-    startTime: "19:00",
-    endTime: "22:00",
-    category: "social",
-    location: "Campus Auditorium",
-    description: "Annual spring concert featuring student bands",
-    createdBy: "prof_johnson",
+    title: "Rangoli Making",
+    date: "2025-03-26",
+    startTime: "09:15",
+    endTime: "11:00",
+    category: "cultural",
+    location: "Room No H-325",
+    description:
+      "Annual rangoli competition to showcase creativity and artistry.",
+    createdBy: "faculty_member_2",
     lastModified: "2025-03-15T09:15:00",
   },
   // More events would be added here
