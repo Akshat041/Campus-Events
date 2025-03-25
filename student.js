@@ -1,9 +1,5 @@
 // import { events } from "./events.js";
 
-// student.js - Student interface functionality
-
-// At the beginning of your JS files (both faculty.js and student.js)
-// Initialize events from localStorage or use default if none exists
 let events = JSON.parse(localStorage.getItem("events")) || [
   {
     id: 1,
